@@ -1,47 +1,62 @@
 ---
-layout: homepage
-author_profile: true
+layout: splash
+author_profile: false
 ---
 
-<h2>Contact us</h2>
-<span>Email: <a href="mailto:nerlichman@paradoxautomation.com">nerlichman@paradoxautomation.com</a></span>
+<h2>About us</h2>
+<span>
+  <p><strong><i>Leading your needs from Proof of Concept to Hyperautomation</i></strong></p>
+  <p>We are a technology company, formed by experienced consultants and UiPath Community leaders.</p>
+  <p>With experience mainly in robotic process automation (RPA) and implementation of process management solutions (BPMS), 
+    at Paradox Automation we can support your business throughout your entire automation journey.</p>
+</span>
 
-<h2>UiPath Marketplace Componentss</h2>
+<h2>What we do</h2>
+<h3>UiPath Marketplace Componentss</h3>
 
-<div class="card">
-  <img src="/assets/images/ExtendedREF_SystemReserved.png" alt="Extended REF - SystemReserved" class="card-img">
-  <div class="card-content">
-    <h4 class="card-title"><a href="https://marketplace.uipath.com/listings/extended-reframework-with-systemreserved" 
-        target="_blank" class="card-link">Extended REFramework with SystemReserved</a></h4> 
-    <p>REFramework with most of the features from the Enhanced REFramework, extended with SystemReserved entity class and reporting capabilities.</p> 
+<div class="card-list">
+  <div class="card">
+    <img src="/assets/images/ExtendedREF_SystemReserved.png" alt="Extended REF - SystemReserved" class="card-img">
+    <div class="card-content">
+      <h4 class="card-title"><a href="https://marketplace.uipath.com/listings/extended-reframework-with-systemreserved" 
+          target="_blank" class="card-link">Extended REFramework with SystemReserved</a></h4> 
+      <p>REFramework with most of the features from the Enhanced REFramework, extended with SystemReserved entity class and reporting capabilities.</p> 
+    </div>
   </div>
-</div>
-  
-<div class="card">
-  <img src="/assets/images/SystemReserved.png" alt="System Reserved" class="card-img">
-  <div class="card-content">
-    <h4 class="card-title"><a href="https://marketplace.uipath.com/listings/systemreserved-entity" 
-        target="_blank" class="card-link">SystemReserved Entity</a></h4> 
-    <p>C# class built to be used within UiPath REFramework. It will hold values that are required for a REFramework to work correctly, like TransactionNumber, RetryNumber, etc.</p> 
+    
+  <div class="card">
+    <img src="/assets/images/SystemReserved.png" alt="System Reserved" class="card-img">
+    <div class="card-content">
+      <h4 class="card-title"><a href="https://marketplace.uipath.com/listings/systemreserved-entity" 
+          target="_blank" class="card-link">SystemReserved Entity</a></h4> 
+      <p>C# class built to be used within UiPath REFramework. It will hold values that are required for a REFramework to work correctly, like TransactionNumber, RetryNumber, etc.</p> 
+    </div>
   </div>
-</div>
-  
-<div class="card">
-  <img src="/assets/images/LoopWithTimeout.png" alt="Loop with Timeout" class="card-img">
-  <div class="card-content">
-    <h4 class="card-title"><a href="https://marketplace.uipath.com/listings/loop-with-timeout" 
-        target="_blank" class="card-link">Loop with Timeout</a></h4> 
-    <p>Reusable template for time-boxing loops and prevent infinite loops from happening</p> 
+    
+  <div class="card">
+    <img src="/assets/images/LoopWithTimeout.png" alt="Loop with Timeout" class="card-img">
+    <div class="card-content">
+      <h4 class="card-title"><a href="https://marketplace.uipath.com/listings/loop-with-timeout" 
+          target="_blank" class="card-link">Loop with Timeout</a></h4> 
+      <p>Reusable template for time-boxing loops and prevent infinite loops from happening</p> 
+    </div>
   </div>
 </div>
 
 <style>
+    .card-list{
+      display: table;
+      font-size: medium;
+    }
+
     .card{
         box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2); 
         transition: 0.3s; 
         border-radius: 5px;
-        margin:20px; 
-        width: 60%;
+        margin:10px; 
+        width: 30%;
+        min-width: 275px;
+        display: inline-table;
     }
 
     .card-img{
